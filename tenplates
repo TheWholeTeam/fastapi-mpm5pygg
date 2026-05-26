@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best Buy Pokémon Stock Checker</title>
+</head>
+<body>
+    <h1>Best Buy In-Store Pokémon TCG Checker</h1>
+    <form action="/check">
+        SKU: <input name="sku" placeholder="e.g. 6571234" required><br><br>
+        ZIP Code: <input name="zip_code" placeholder="90210" required><br><br>
+        Radius (miles): <input name="radius" type="number" value="50"><br><br>
+        <button type="submit">Check Nearby Stores</button>
+    </form>
+</body>
+</html>
